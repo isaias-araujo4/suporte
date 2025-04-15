@@ -1,0 +1,32 @@
+
+.header {
+  background-color: #2c5282;
+  color: white;
+  padding: 1rem 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logout-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.logout-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
